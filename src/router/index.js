@@ -27,7 +27,7 @@ export default new VueRouter({
       component: Dogs
     },
     {
-      path: '/Pet',
+      path: '/Pets/:id',
       name: 'Pet',
       component: Pet
     }
