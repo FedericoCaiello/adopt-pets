@@ -13,22 +13,22 @@ export default new VueRouter({
   routes: [
     {
       path: '/',
-      name: 'Home',
+      name: 'home',
       component: Home
     },
     {
-      path: '/Cats',
-      name: 'Cats',
+      path: '/cats',
+      name: 'cats',
       component: Cats
     },
     {
-      path: '/Dogs',
-      name: 'Dogs',
+      path: '/dogs',
+      name: 'dogs',
       component: Dogs
     },
     {
-      path: '/Pets/:id',
-      name: 'Pet',
+      path: '/pets/:species/:id',
+      name: 'pet',
       component: Pet
     }
   ]
